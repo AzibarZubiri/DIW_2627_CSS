@@ -1,3 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #f3f2f1;
+}
+.TITULO{
+    display: inline-block;
+}
+header{
+    display: block;
+    margin-left: auto;
+    text-align: center;
+    border: 1px solid #7C7C7C;
+
+}
+nav ul li{
+    display: inline-block;
+    border-style: solid;
+    border: 1px solid #7C7C7C;
+}
+li:hover{
+    background-color: #ff6347;
+    
+}
+a:hover{
+color: white;
+}
+
+#LOGO{
+    clip-path: circle(50%);
+}
+a{
+    color:black;
+}
+.cuerpo{
+    display: inline-block;
+}
+.cuerpo-lado{
+    display: block;
+}
+article{
+    border: 1px solid #7C7C7C;
+}
+aside{
+    border: 1px solid #7C7C7C;
+}
+section{
+    border: 1px solid #7C7C7C;
 }
