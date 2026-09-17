@@ -1,51 +1,122 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+/* TÍTULO */
+.TITULO {
     background-color: #f3f2f1;
+    border: 1px solid #7C7C7C;
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    padding-top: 5px;
+    height: 20%;
 }
-.TITULO{
-    display: inline-block;
+
+/* LOGO */
+#LOGO {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 100%;
+    border: 1px solid #7C7C7C;
+    box-shadow: 10px 10px 10px;
 }
-header{
-    display: block;
-    margin-left: auto;
+
+/* HEADER */
+header {
+    background-color: #f3f2f1;
     text-align: center;
     border: 1px solid #7C7C7C;
-
+    height: 5%;
 }
-nav ul li{
+
+/* MENÚ */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
     display: inline-block;
-    border-style: solid;
     border: 1px solid #7C7C7C;
 }
-li:hover{
-    background-color: #ff6347;
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* CUERPO PRINCIPAL */
+.cuerpo{
+    height: 70%;
+}
+.INICIO {
+    background-color: #f3f2f1;
+    border: 1px solid #7C7C7C;
+    text-align: center;
+    display: inline-block;
+    width: 650px;
+    vertical-align: top;
+    height: 713px;
+}
+p{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* COLUMNA LATERAL */
+.cuerpo-lado {
+    display: inline-block;
+    width: 344px;
+    vertical-align: top;
     
 }
-a:hover{
-color: white;
+
+/* NOTICIAS */
+.noticias {
+    background-color: #f3f2f1;
+    border: 1px solid #7C7C7C;
+    text-align: center;
+    display: block;
+    height: 65%
 }
 
-#LOGO{
-    clip-path: circle(50%);
-}
-a{
-    color:black;
-}
-.cuerpo{
-    display: inline-block;
-}
-.cuerpo-lado{
+/* VIDEO */
+.video {
+    background-color: #f3f2f1;
+    border: 1px solid #7C7C7C;
+    text-align: center;
     display: block;
+    height: 30%;
 }
-article{
-    border: 1px solid #7C7C7C;
+
+/* HOVER */
+li:hover {
+    background-color: #ff6347;
 }
-aside{
-    border: 1px solid #7C7C7C;
+
+a:hover {
+    color: white;
 }
-section{
+
+/* FOOTER */
+footer{
+    background-color: #f3f2f1;
     border: 1px solid #7C7C7C;
+    text-align: center;
+    height: 5%;
 }
